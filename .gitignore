@@ -1,0 +1,32 @@
+# Environments
+.env
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# .tfvars files
+*.tfvars
+*.tfvars.json
+
+# Terragrunt cache
+.terragrunt-cache/
+
+# Local .terraform directories
+**/.terraform/*
