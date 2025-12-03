@@ -1,7 +1,5 @@
 # gh-repo-as-code
 
-![License](https://img.shields.io/badge/license-MIT-green)
-
 ## 📝 Description
 
 Manage your personal GitHub repositories as code using Terraform with gh-repo-as-code. Define and provision your repositories, including settings, branches, and collaborators, through declarative configuration files. Ensure consistency, version control, and reproducibility across your GitHub projects. Simplify repository management and automate the setup of new repositories with ease.
@@ -39,4 +37,6 @@ Please ensure your code follows the project's style guidelines and includes test
 This project is licensed under the MIT License.
 
 ---
-*This README was generated with ❤️ by ReadmeBuddy*
+✨ This README was generated with readmebuddy.com and readme.so
+
+[![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)](https://www.terraform.io/) [![Terragrunt](https://img.shields.io/badge/Terragrunt-6A0DAD?style=for-the-badge&logo=terraform&logoColor=white)](https://terragrunt.gruntwork.io/) ![License](https://img.shields.io/badge/license-MIT-green)
