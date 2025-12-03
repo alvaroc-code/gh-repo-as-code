@@ -68,3 +68,44 @@ variable "vulnerability_alerts" {
   type        = bool
   default     = true
 }
+
+variable "gitignore_content" {
+  description = "Content for the .gitignore file"
+  type        = string
+  default     = <<EOT
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude .env files
+*.env
+.env
+
+# Editor directories and files
+.idea
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Language-specific (optional)
+node_modules/
+__pycache__/
+*.pyc
+EOT
+}
